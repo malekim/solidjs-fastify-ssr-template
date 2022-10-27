@@ -38,7 +38,7 @@ const authRoutes = async (server: FastifyInstance, opts: AuthRegisterOptions): P
         })
       }
       await reply
-        .code(400)
+        .code(200)
         .send({
           message: 'success'
         })
