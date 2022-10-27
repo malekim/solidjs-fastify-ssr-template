@@ -1,0 +1,13 @@
+# Dependecies
+node_modules/
+
+# Build output
+dist/
+temp/
+
+# Misc
+.pnpm-*.log
+.DS_Store
+.dccache
+
+.env

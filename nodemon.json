@@ -1,0 +1,16 @@
+{
+  "ignore": [
+    ".git*",
+    "node_modules/**/node_modules"
+  ],
+  "verbose": true,
+  "watch": [
+    ".env",
+    "./main.ts",
+    "./api",
+    "./shared"
+  ],
+  "execMap": {
+    "ts": "tsx"
+  }
+}
