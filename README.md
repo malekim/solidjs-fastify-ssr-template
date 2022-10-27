@@ -1,0 +1,1 @@
+# solidjs-fastify-ssr-template
