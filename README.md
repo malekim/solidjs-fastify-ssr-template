@@ -16,6 +16,6 @@ yarn dev
 yarn build
 ```
 
-``bash
+```bash
 yarn start
 ```
