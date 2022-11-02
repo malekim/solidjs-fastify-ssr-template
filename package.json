@@ -65,7 +65,7 @@
     "ts-node": "^10.9.1",
     "tsx": "^3.11.0",
     "typescript": "*",
-    "vite": "^2.5.7",
-    "vite-plugin-solid": "^2.0.3"
+    "vite": "^3.0.0",
+    "vite-plugin-solid": "^2.3.3"
   }
 }

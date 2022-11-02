@@ -44,6 +44,7 @@ const build = async (): Promise<FastifyInstance> => {
     })
   }
 
+  /*
   const orm = await MikroORM.init({
     metadataProvider: TsMorphMetadataProvider,
     entities: [User],
@@ -55,6 +56,7 @@ const build = async (): Promise<FastifyInstance> => {
     debug: !isProduction,
     logger: msg => console.error(msg)
   })
+  */
 
   await server.register(fastifySession, {
     cookieName: COOKIE_NAME,
@@ -73,7 +75,7 @@ const build = async (): Promise<FastifyInstance> => {
   }
 
   await server.register(async () => {
-    await server.register(authRoutes, { prefix: '/v1/auth', orm: orm })
+    // await server.register(authRoutes, { prefix: '/v1/auth', orm: orm })
   },
   {
     prefix: '/api/'
